@@ -1,0 +1,9 @@
+a,b,x,y=map(int,input().split())
+c= (a*2)+b
+d=(x*2)+y
+if c==d:
+    print('equal')
+elif c>d:
+    print('messi')
+else:
+    print('ronaldo')
